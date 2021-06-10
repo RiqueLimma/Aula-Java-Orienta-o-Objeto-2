@@ -1,11 +1,6 @@
-package br.com.generation.teste;
+package br.com.generation.Animal;
 
-import br.com.generation.Animal.Animal;
-import br.com.generation.Animal.Cachorro;
-import br.com.generation.Animal.Cavalo;
-import br.com.generation.Animal.Preguica;
-
-public class TesteAnimal extends Animal {
+public class TesteAnimal {
 
 	public static void main(String[] args) {
 
@@ -46,9 +41,9 @@ public class TesteAnimal extends Animal {
 			System.out.println("=================> Preguiça < =========================");
 			System.out.println(" ");
 			System.out.println("Nome Preguica: " + preguica1.getNome() + " \nIdade: "+
-			preguica1.getIdade() + "\nTipos de Comidas" + preguica1.getComidas());
+			preguica1.getIdade() + "\nTipos de Comidas" + preguica1.getComidas() + "Subir: ");
 			preguica1.Som();
-			preguica1.Subir();
+			preguica1.subir();
 			
 			
 			

@@ -1,6 +1,6 @@
 package br.com.generation.Animal;
 
-public class Animal {
+public abstract class  Animal implements Animal1 {
 
 	private String Nome;
 	private int Idade;
@@ -26,16 +26,8 @@ public class Animal {
 		Idade = idade;
 	}
 	
-	
-	void Som() {
-		}
-	
-	void Correr() {
-		}
-	
-	void subir() {
+	void subir (String subir) {
 		
 	}
-	
 	
 }

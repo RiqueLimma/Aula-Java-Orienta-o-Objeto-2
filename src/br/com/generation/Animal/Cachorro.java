@@ -1,13 +1,15 @@
 package br.com.generation.Animal;
 
-public class Cachorro extends Animal {
+public class Cachorro  extends Animal implements Animal1 {
 
+	@Override
 	public void Som() {
-		System.out.println("Au Au Au Au Au !! ");
+		System.out.println("Som do Cachorro: Au Au Au Au Au !! ");
 	}
 	
+	@Override
 	public void Correr() {
-		System.out.println("Brincar no Parte !!");
+		System.out.println("Corre: Brincar no Parte !!");
 	}
 	
 }

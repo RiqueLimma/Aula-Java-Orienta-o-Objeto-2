@@ -1,13 +1,19 @@
 package br.com.generation.Animal;
 
-public class Preguica extends Animal{
+public class Preguica extends Animal implements Animal1{
 	
-	public void Som() {
-		System.out.println(" zzzzzzzzzzzzzz !! ");
+	void subir() {
+		System.out.println("Subir: Sim !");
 	}
-	
-	public void Subir() {
-		System.out.println("Sim !!");
+	@Override
+	public void Som() {
+		System.out.println("Som da Preguiça:  zzzzzzzzzzzzzz !! ");
+	}
+
+	@Override
+	public void Correr() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
