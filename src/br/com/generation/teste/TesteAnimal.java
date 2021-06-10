@@ -15,7 +15,15 @@ public class TesteAnimal extends Animal {
 			
 			cachorro1.setNome(" Pitó ");
 			cachorro1.setIdade(3);
-			cachorro1.setComidas("Ração");
+			cachorro1.setComidas(" Ração");
+			
+			cavalo1.setNome(" Alazão");
+			cavalo1.setIdade(3);
+			cavalo1.setComidas(" Ração e Capim");
+			
+			preguica1.setNome(" Zubumafu ");
+			preguica1.setIdade(2);
+			preguica1.setComidas(" Frutas e Coisas da Natureza");
 			
 			
 			System.out.println("=================> Cachorro < =========================");
@@ -30,14 +38,14 @@ public class TesteAnimal extends Animal {
 			System.out.println("=================> Cavalo < =========================");
 			System.out.println(" ");
 			System.out.println("Nome do Cavalo: " + cavalo1.getNome() + " \nIdade: "+
-			cavalo1.getIdade() + "\nTipos de Comidas" + cavalo1.getComidas());
+			cavalo1.getIdade() + "\nTipos de Comidas:  " + cavalo1.getComidas());
 			cavalo1.Som();
 			cavalo1.Correr();
 			System.out.println(" ");
 			
 			System.out.println("=================> Preguiça < =========================");
 			System.out.println(" ");
-			System.out.println("Nome do Cavalo: " + preguica1.getNome() + " \nIdade: "+
+			System.out.println("Nome Preguica: " + preguica1.getNome() + " \nIdade: "+
 			preguica1.getIdade() + "\nTipos de Comidas" + preguica1.getComidas());
 			preguica1.Som();
 			preguica1.Subir();
